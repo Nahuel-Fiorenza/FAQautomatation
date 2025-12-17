@@ -1,18 +1,1 @@
-services:
-  - type: web
-    name: n8n
-    env: docker
-    plan: free
-    autoDeploy: true
-    dockerImage: n8nio/n8n
-    envVars:
-      - key: N8N_HOST
-        value: n8n.onrender.com
-      - key: N8N_PORT
-        value: 5678
-      - key: N8N_PROTOCOL
-        value: https
-      - key: WEBHOOK_URL
-        value: https://n8n.onrender.com
-      - key: NODE_ENV
-        value: production
+
